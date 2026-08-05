@@ -1,4 +1,8 @@
-# Starter Pack JS
+<!-- # Starter Pack JS -->
+
+<p align="center">
+  <img src="./js-starter-pack.webp" width="800" alt="Starter Pack JS" />
+</p>
 
 Шаблон для создания frontend-проектов на JavaScript.
 
@@ -11,6 +15,7 @@
 - Vitest
 - Husky
 - lint-staged
+- Commitlint
 - GitHub Actions
 - Dependabot
 
