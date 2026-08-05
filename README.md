@@ -1,4 +1,4 @@
-# Frontend Template JS
+# Starter Pack JS
 
 Шаблон для создания frontend-проектов на JavaScript.
 
@@ -152,12 +152,36 @@ npm run test
 
 # Git workflow
 
-Перед каждым коммитом автоматически запускаются:
+Перед каждым коммитом через Husky и lint-staged выполняются:
 
-- ESLint
-- Prettier
+- ESLint (`eslint --fix`)
+- Prettier (`prettier --write`)
+- Commitlint (проверка сообщения коммита)
 
-через Husky и lint-staged.
+Используется соглашение **Conventional Commits**.
+
+### Примеры
+
+✅ Корректно:
+
+```text
+feat: add modal component
+fix: resolve race condition
+docs: update readme
+refactor: simplify state manager
+test: add unit tests
+chore: update dependencies
+ci: add github actions
+```
+
+❌ Некорректно:
+
+```text
+update
+fixed bug
+new feature
+changes
+```
 
 ---
 
