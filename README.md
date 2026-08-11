@@ -18,6 +18,7 @@
 - Commitlint
 - GitHub Actions
 - Dependabot
+- Validate Branch Name
 
 ---
 
@@ -76,6 +77,35 @@ npm run format
 ```
 npm run test
 ```
+
+---
+
+### Названия веток
+
+Используется `validate-branch-name`.
+
+Формат:
+
+`<type>/<description>`
+`<type>/<issue-number>-<description>`
+
+Примеры:
+
+feat/add-login-form
+experiment/state-kit
+chore/update-eslint
+
+или
+
+`feat/117-add-login-form`
+`fix/225-fix-validation`
+`docs/228-update-readme`
+
+Допустимые типы:
+
+`build`, `chore`, `ci`, `docs`, `feat`, `fix`, `perf`, `refactor`, `revert`, `style`, `test`, `experiment`
+
+Проверка выполняется автоматически перед `git push`.
 
 ---
 
