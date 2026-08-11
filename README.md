@@ -17,6 +17,7 @@
 - lint-staged
 - Commitlint
 - GitHub Actions
+- GitHub Templates
 - Dependabot
 - Validate Branch Name
 
@@ -217,6 +218,17 @@ fixed bug
 new feature
 changes
 ```
+
+---
+
+## Шаблоны GitHub
+
+В репозитории настроены шаблоны для стандартизации работы с GitHub:
+
+- **Issues** — шаблоны для ошибок, функций и других задач.
+- **Pull Requests** — шаблон описания изменений, тестирования и проверки перед слиянием.
+
+Шаблоны находятся в директории `.github/`. GitHub автоматически использует их при создании новых Issues и Pull Requests.
 
 ---
 
