@@ -120,10 +120,6 @@ chore/update-eslint
 │   ├── site.webmanifest
 │   └── robots.txt
 │
-├── src/
-│   ├── main.js
-│   └── style.css
-│
 ├── .github/
 │   ├── workflows/
 │   └── dependabot.yml
@@ -257,14 +253,15 @@ changes
 
 # Команды разработки
 
-| Команда         | Назначение         |
-| --------------- | ------------------ |
-| npm run dev     | запуск dev-сервера |
-| npm run build   | production-сборка  |
-| npm run preview | просмотр сборки    |
-| npm run lint    | проверка ESLint    |
-| npm run format  | форматирование     |
-| npm run test    | запуск тестов      |
+| Команда            | Назначение         |
+| ------------------ | ------------------ |
+| npm run dev        | запуск dev-сервера |
+| npm run build      | production-сборка  |
+| npm run preview    | просмотр сборки    |
+| npm run lint       | проверка ESLint    |
+| npm run format     | форматирование     |
+| npm run test       | запуск тестов      |
+| npm run test:watch | запуск тестов      |
 
 ---
 
