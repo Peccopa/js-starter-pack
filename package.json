@@ -41,6 +41,7 @@
   },
   "dependencies": {
     "@peccopa/component-kit": "^0.1.0",
+    "@peccopa/router-kit": "^0.1.0",
     "@peccopa/state-kit": "^0.1.0"
   }
 }
