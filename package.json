@@ -1,7 +1,6 @@
 {
-  "name": "fe-template-js",
-  "version": "0.0.0",
-  "private": true,
+  "name": "js-starter-pack",
+  "version": "1.0.0",
   "type": "module",
   "license": "MIT",
   "scripts": {
